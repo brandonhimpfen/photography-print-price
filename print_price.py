@@ -16,4 +16,4 @@ price *= args.subject_value * args.reputation_factor
 price += args.production_cost + args.framing_cost
 
 # Print the calculated price
-print("The price of the print is ${:.2f}".format(price))
+print("${:.2f}".format(price))
